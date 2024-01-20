@@ -1,6 +1,6 @@
 ### What is Binary Search? --------------------------------------------------------------------
 
-    * Binary search is an efficient algorithm for finding from a sorted list of items, it works on the divide and conquer apporach. The main idea is to keep track of the current range of reasonable guesses.
+    * Binary search is an efficient algorithm for finding from a sorted list of items, it works on the divide and conquer approach. The main idea is to keep track of the current range of reasonable guesses.
 
     * How does it do this? By repeatedly dividing in half the portion of the list that could contain the item, until we've narrowed down the possible locations to just one. In this case, if the item is not in the array, we should still return a value, since we're dealing with indexes of arrays, the most common is to return -1.
 
@@ -34,6 +34,8 @@
     ||                                          ||                                              ||
     ==============================================================================================
 
+
+![Visual Reassignment](<Screenshot 2024-01-20 at 11.48.35 AM.png>)
 
 ![Variable Reassignment](<Screenshot 2024-01-19 at 6.49.35 PM.png>)
 
