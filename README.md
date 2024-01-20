@@ -1,4 +1,4 @@
-### What is Binary Search? --------------------------------------------------------------------------------------------------------
+### What is Binary Search? --------------------------------------------------------------------
 
     * Binary search is an efficient algorithm for finding from a sorted list of items, it works on the divide and conquer apporach. The main idea is to keep track of the current range of reasonable guesses.
 
@@ -42,36 +42,37 @@
 
 
 
-### Edge Cases---------------------------------------------------------------------------------------------------------------------
+### Edge Cases --------------------------------------------------------------------------------
     
     * Only works on sorted arrays!
 
 
 
 
-### Time Complexity ---------------------------------------------------------------------------------------------------------------
+### Time Complexity ---------------------------------------------------------------------------
 
     The binary search algorithm takes time to complete. In worst case scenario, time complexity is O(log n) - Log base 2. 
 
     * "n" = length of the array. Since everytime we iterate inside the loop, the array is divided in 2. We can confirm the following:
 
 
-                            n  -->  n/2  -->  n/4  -->  n/8  -->  ...  -->  1
+                        n  -->  n/2  -->  n/4  -->  n/8  -->  ...  -->  1
 
-                            n  -->  n/2  -->  n/2^2  -->  n/2^3  -->  ...  -->  n/2^x  -->  1
+                        n  -->  n/2  -->  n/2^2  -->  n/2^3  -->  ...  -->  n/2^x  -->  1
 
-                            n/2^x = 1  -->  n = 2^x  -->  2^x = n  -->  x = log2 (n)
+                        n/2^x = 1  -->  n = 2^x  -->  2^x = n  -->  x = log2 (n)
 
 
 
     * So if we have an array with 1.000.000 elements, worst case scenario it'll take 20 iterations to find our target     
 
 
-### Citations ---------------------------------------------------------------------------------------------------------------------
+### Citations ---------------------------------------------------------------------------------
 
+GODOY RODRIGUEZ, JORGE L (2024). SELF ELABORATION (BINARY SEARCH)
 https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search
 https://chat.openai.com/share/ad522ffe-2509-43f6-a004-338d40649ef7
-
+https://www.codecademy.com/learn/fscp-22-search-graph-search-algorithms/modules/wdcp-22-binary-search-and-search-trees/cheatsheet
 
 
 
